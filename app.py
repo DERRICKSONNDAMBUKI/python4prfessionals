@@ -53,3 +53,19 @@ print(type(q))
 x = None
 print(type(x))
 # Output: <type 'NoneType'>
+
+a, b, c = 1, 2, 3
+print(a, b, c)
+# Output: 1 2 3
+a, b, _ = 1, 2, 3
+print(a, b)
+# Output: 1, 2
+a = b = c = 1
+print(a, b, c)
+# Output: 1 1 1
+
+x = [1, 2, [3, 4, 5], 6, 7] # this is nested list
+print (x[2])
+# Output: [3, 4, 5]
+print(x[2][1])
+# Output: 4
